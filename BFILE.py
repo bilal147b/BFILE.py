@@ -3,6 +3,45 @@
 import os,zlib
 from os import system as cmd
 import bs4,time,datetime
+import os, sys
+ 
+# Tumhara WhatsApp Group link
+channel_link = "https://chat.whatsapp.com/BsOxo1XxmiPJJg2DkXR0Kt?mode=ems_copy_t"
+ 
+# Valid keys (Group par available hogi)
+approved_keys = ["BILAL2025"]
+ 
+def first_step():
+    os.system("clear")
+    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━")
+    print("        🔒 Script Locked 🔒")
+    print("━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\n")
+    print("\033[1;32m JOIN OUR WHATSAPP CHANNEL ✅ \033[0m\n")
+    print("\033[1;32m KEY APKO CHANEL SA MILY GI ✅ \033[0m\n")
+    print("[!] Pehle WhatsApp Group par join karo.")
+    print(f"[+] Massage Group Admin")
+ 
+    # Yeh direct WhatsApp channel open karega
+    os.system(f"xdg-open https://chat.whatsapp.com/BsOxo1XxmiPJJg2DkXR0Kt?mode=ems_copy_t")
+ 
+    input("\n[↩] Jab join kar lo tab Enter dabao...")
+ 
+def check_key():
+    user_key = input("\n[?] Enter your key: ")
+    if user_key in approved_keys:
+        print("\n[✓] Key approved! Script is running...\n")
+    else:
+        print("\n[×] Invalid key! Dobara Channel par jao.")
+        sys.exit()
+ 
+# Pehle channel open hoga
+first_step()
+ 
+# Phir key check hoga
+check_key()
+ 
+# Tool ka main code yahan likho
+print(">>> Tool Successfully Unlocked <<<")
 os.system('clear')
 colors = ["\033[0;30m", "\033[1;30m", "\033[0;31m", "\033[1;31m", "\033[0;32m", "\033[1;32m","\033[0;92m","\033[1;92m","\033[1;93m","\033[1;94m","\033[1;95m","\033[1;96m","\033[0;33m", "\033[1;33m", "\033[0;34m", "\033[1;34m", "\033[0;35m", "\033[1;35m", "\033[0;36m", "\033[1;36m", "\033[0;37m", "\033[1;37m", "\033[1;90m", "\033[0;91m","\033[1;91m", "\033[0;92m", "\033[1;93m", "\033[0;94m", "\033[1;94m", "\033[0;95m","\033[1;95m", "\033[0;96m", "\033[1;96m", "\033[0;97m", "\033[0;100m", "\033[1;100m","\033[0;101m", "\033[1;101m", "\033[0;102m", "\033[1;102m","\033[0;104m", "\033[1;104m", "\033[0;105m", "\033[1;105m", "\033[0;106m", "\033[1;106m"]
 colorss = ['\x1b[1;97m', '\x1b[38;5;196m', '\033[1;33m', '\x1b[38;5;48m',
